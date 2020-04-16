@@ -7,7 +7,7 @@ namespace works.ei8.Data.Tag.Port.Adapter.In.Api
 {
     public class ItemModule : NancyModule
     {
-        public ItemModule(ICommandSender commandSender) : base("/{avatarId}/data/tags")
+        public ItemModule(ICommandSender commandSender) : base("/data/tags")
         {
             this.Put("/{itemId}", async (parameters) =>
             {
@@ -18,7 +18,6 @@ namespace works.ei8.Data.Tag.Port.Adapter.In.Api
                         (bodyAsObject, bodyAsDictionary, expectedVersion) =>
                         {
                             return new ChangeTag(
-                                parameters.avatarId,
                                 Guid.Parse(parameters.itemId.ToString()),
                                 bodyAsObject.Tag.ToString(),
                                 Guid.Parse(bodyAsObject.AuthorId.ToString()),

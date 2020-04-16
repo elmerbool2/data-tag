@@ -1,14 +1,14 @@
 version: '3.4'
 
 services:
-  in.api:
+  data-tag.in.api:
     env_file:
       - ./var1.env
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "60050:80"
-  out.api:
+  data-tag.out.api:
     env_file:
       - ./var1.env
     environment:
