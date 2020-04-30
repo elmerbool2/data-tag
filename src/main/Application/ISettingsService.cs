@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace works.ei8.Data.Tag.Application
+namespace ei8.Data.Tag.Application
 {
     public interface ISettingsService
     {

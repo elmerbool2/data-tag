@@ -1,8 +1,8 @@
 ﻿using System;
-using works.ei8.Data.Tag.Application;
-using works.ei8.Data.Tag.Port.Adapter.Common;
+using ei8.Data.Tag.Application;
+using ei8.Data.Tag.Port.Adapter.Common;
 
-namespace works.ei8.Data.Tag.Port.Adapter.IO.Process.Services
+namespace ei8.Data.Tag.Port.Adapter.IO.Process.Services
 {
     public class SettingsService : ISettingsService
     {

@@ -1,7 +1,7 @@
-﻿using org.neurul.Common.Domain.Model;
+﻿using neurUL.Common.Domain.Model;
 using System;
 
-namespace works.ei8.Data.Tag.Domain.Model
+namespace ei8.Data.Tag.Domain.Model
 {
     /// <summary>
     /// Represents an Item.

@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System;
 
-namespace works.ei8.Data.Tag.Domain.Model
+namespace ei8.Data.Tag.Domain.Model
 {
     public class TagChanged : IEvent
     {

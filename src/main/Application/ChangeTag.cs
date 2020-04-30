@@ -1,10 +1,10 @@
 ﻿using CQRSlite.Commands;
-using org.neurul.Common.Domain.Model;
+using neurUL.Common.Domain.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace works.ei8.Data.Tag.Application
+namespace ei8.Data.Tag.Application
 {
     public class ChangeTag : ICommand
     {

@@ -1,13 +1,13 @@
-﻿using org.neurul.Common.Domain.Model;
-using org.neurul.Common.Http;
+﻿using neurUL.Common.Domain.Model;
+using neurUL.Common.Http;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using works.ei8.EventSourcing.Client;
-using works.ei8.Data.Tag.Common;
-using works.ei8.Data.Tag.Domain.Model;
+using ei8.EventSourcing.Client;
+using ei8.Data.Tag.Common;
+using ei8.Data.Tag.Domain.Model;
 
-namespace works.ei8.Data.Tag.Application
+namespace ei8.Data.Tag.Application
 {
     public class ItemQueryService : IItemQueryService
     {

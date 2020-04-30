@@ -1,10 +1,10 @@
 ﻿using Nancy;
 using Nancy.TinyIoc;
-using works.ei8.EventSourcing.Client;
-using works.ei8.Data.Tag.Application;
-using works.ei8.Data.Tag.Port.Adapter.IO.Process.Services;
+using ei8.EventSourcing.Client;
+using ei8.Data.Tag.Application;
+using ei8.Data.Tag.Port.Adapter.IO.Process.Services;
 
-namespace works.ei8.Data.Tag.Port.Adapter.Out.Api
+namespace ei8.Data.Tag.Port.Adapter.Out.Api
 {
     public class CustomBootstrapper : DefaultNancyBootstrapper
     {

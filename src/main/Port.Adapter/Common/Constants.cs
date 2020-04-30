@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace works.ei8.Data.Tag.Port.Adapter.Common
+namespace ei8.Data.Tag.Port.Adapter.Common
 {
     public struct EnvironmentVariableKeys
     {
